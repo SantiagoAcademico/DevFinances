@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background-color: #F0F2F5;
+}
+
+.cabecalho{
+    background-color: #2D4A22;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+.cabecalho .logo{
+    display: block;
+    margin:  auto;
+    height: 28px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-primario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.conteudo-primario-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -80px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    /*box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);*/
+    width: 360px;
+    height: 130px;
+    padding: 30px;
+
+}
+
+#total{
+    background-color: #49AA26;
+    color: #fff;
+}
+#total h3{
+    color: #fff;
+}
+
+.conteudo-primario-card div{
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.conteudo-primario-card div img{
+    height: 35px;
+}
+
+.conteudo-primario-card h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #363F5F;
+
+
+}
+
+.conteudo-primario-card h3 strong{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.conteudo-secundario{
+    display: block;
+    margin: auto;
+    padding-top: 150px;
+}
+
+table{
+    width: 1120px;
+    height: 324px;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cabecalho-tabela{
+    font-weight: 200;
+    font-size: 16px;
+    color: #969CB3;
+}
+
+.linha-tabela{
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.linha-tabela td{
+    width: 33%;
+    
+    font-weight: 400;
+    font-size: 16px;
+}
+.linha-tabela td:nth-child(1){
+    color: #363F5F;
+}
+.linha-tabela td:nth-child(2) {
+    text-align: center;
+}
+.negativo{
+    color: #E92929;
+}
+.positivo{
+    color: #49AA26;
+}
+
+.linha-tabela td:nth-child(3){
+    text-align: end;
+    color: #969CB2
+    ;
+}
